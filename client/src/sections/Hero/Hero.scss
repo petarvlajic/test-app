@@ -57,6 +57,12 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .hero-text {
+    margin-left: 250px;
+  }
+}
+
 @media (max-width: 1000px) {
   .hero-text {
     margin-left: 150px;

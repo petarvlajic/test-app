@@ -1,7 +1,7 @@
+import SingeNews from '../../sections/SingeNews/index';
 import { Background, Navbar } from '../../components';
 import { Fragment } from 'react';
 import React from 'react';
-import SingeNews from '../../sections/SingeNews/index';
 
 const SingleNewsPage = () => {
   return (

@@ -1,10 +1,18 @@
+import { getSingleNews } from '../../actions/news';
+import { Fragment, useEffect } from 'react';
 import { Heading } from '../../components';
+import { useParams } from 'react-router';
 import { connect } from 'react-redux';
-import { Fragment } from 'react';
 import './SingleNews.scss';
 import React from 'react';
+import store from '../../store';
 
 const SingleNews = ({ news }) => {
+  const { id } = useParams();
+  useEffect(() => {
+    store.dispatch(getSingleNews(id));
+  }, []);
+
   const renderSingleNews = () => {
     const { title, description, categories, image } = news;
     const img = require(`../../img/news/${image}.png`).default;

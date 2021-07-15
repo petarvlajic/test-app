@@ -13,10 +13,6 @@ import store from './store';
 import SingleNewsPage from './pages/SingleNews';
 
 const App = () => {
-  useEffect(() => {
-    store.dispatch(getNews());
-  }, []);
-
   return (
     <Provider store={store}>
       <Router>

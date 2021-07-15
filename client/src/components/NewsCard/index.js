@@ -9,14 +9,10 @@ const NewsCard = (props) => {
   const { img, id, title, date } = props;
   const image = require(`../../img/news/${img}.png`).default;
 
-  const getNew = () => {
-    store.dispatch(getSingleNews(id));
-  };
-
   return (
     <div id={id} className="news-card">
       <Link to={`news/${id}`}>
-        <img onClick={() => getNew()} src={image} alt="news" />
+        <img src={image} alt="news" />
       </Link>
       <div className="news-card-info">
         <span>{Moment(date).format('MMMM Do YYYY')}</span>
