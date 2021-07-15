@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  img {
+    height: 50px;
+    margin-left: 10px;
+  }
+
+  nav {
+    width: 30%;
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      li {
+        cursor: pointer;
+        transition: transform 0.3s;
+        &:hover {
+          color: rgb(92, 187, 37);
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}

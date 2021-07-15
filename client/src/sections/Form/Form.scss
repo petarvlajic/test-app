@@ -1,0 +1,37 @@
+.form {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .form-text {
+    width: 40%;
+    color: white;
+    font-weight: bold;
+    h1 {
+      font-size: 38px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .form-input {
+    width: 50%;
+    margin-right: 20px;
+    input {
+      padding: 15px 5px;
+      border-radius: 7px;
+      border: 0px;
+      width: 65%;
+      outline: 0;
+    }
+    button {
+      padding: 15px 5px;
+      border-radius: 7px;
+      border: 0px;
+      color: white;
+      background: #88ac2c;
+      margin-left: 20px;
+      width: 20%;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@mixin bg($img) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../img/#{$img}.jpeg');
+}
+
+.card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 28%;
+  padding: 30px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+
+  &:hover {
+    box-shadow: 7px 7px rgb(105, 103, 103);
+    transform: scale(1.1);
+  }
+  p {
+    margin: 16px 0px;
+  }
+  button {
+    font-weight: bold;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    max-width: 150px;
+    width: 100%;
+    border: 1px solid rgb(160, 152, 152);
+    i {
+      margin-left: 5px;
+    }
+  }
+}
+
+.touch {
+  @include bg('touch');
+}
+.content {
+  @include bg('content');
+}
+.customer {
+  @include bg('customer');
+}

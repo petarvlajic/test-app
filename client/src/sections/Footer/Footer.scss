@@ -1,0 +1,36 @@
+.footer {
+  h1 {
+    font-weight: 800;
+  }
+  .footer-heading {
+    padding-left: 0px;
+    margin-bottom: 15px;
+  }
+  margin: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  .footer-heading {
+    span {
+      font-family: 'Dancing Script', cursive;
+      color: rgb(32, 110, 32);
+      font-weight: 700;
+      font-size: 20px;
+    }
+  }
+  .footer-resource {
+    ul {
+      margin: 0px;
+      padding: 0px;
+      list-style-type: none;
+      line-height: 2;
+      li {
+        text-align: left;
+      }
+    }
+  }
+  div {
+    width: 25%;
+    line-height: 1.2;
+  }
+}

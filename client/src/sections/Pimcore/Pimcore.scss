@@ -1,0 +1,49 @@
+.pimcore {
+  margin-top: 150px;
+  display: flex;
+  .pimcore-picture {
+    padding: 0px 70px;
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  .pimcore-info {
+    p {
+      margin: 15px 0px;
+      line-height: 1.5;
+    }
+
+    .text {
+      margin-left: 20px;
+      h4 {
+        color: #3b3654;
+        i {
+          margin-right: 10px;
+        }
+      }
+      p {
+        margin-left: 27px;
+      }
+    }
+  }
+}
+/* 
+
+@media (max-width: 480px) {
+  .pimcore {
+    flex-direction: column;
+    .pimcore-picture {
+      padding-left: 0px;
+    }
+    
+    .pimcore-info {
+      .text {
+        margin: 0px;
+      }
+    }
+  }
+}
+
+*/
