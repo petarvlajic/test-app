@@ -29,21 +29,21 @@
     }
   }
 }
-/* 
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   .pimcore {
     flex-direction: column;
     .pimcore-picture {
       padding-left: 0px;
+      margin-left: 70px;
+      padding-right: 35px;
     }
-    
+
     .pimcore-info {
+      padding: 0px 90px;
       .text {
         margin: 0px;
       }
     }
   }
 }
-
-*/

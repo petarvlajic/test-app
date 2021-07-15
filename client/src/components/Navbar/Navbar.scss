@@ -10,6 +10,9 @@ header {
 
   nav {
     width: 30%;
+    .fa-2x {
+      display: none;
+    }
     ul {
       list-style-type: none;
       display: flex;
@@ -22,6 +25,20 @@ header {
           color: rgb(92, 187, 37);
           transform: scale(1.2);
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  header {
+    nav {
+      text-align: right;
+      .fa-2x {
+        display: block;
+      }
+      ul {
+        display: none;
       }
     }
   }

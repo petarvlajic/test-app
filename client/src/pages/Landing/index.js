@@ -1,7 +1,8 @@
 import React from 'react';
 import { Fragment } from 'react';
 import { Background } from '../../components';
-import { Focus, Hero, News, Pimcore } from '../../sections';
+import { Focus, Hero, Pimcore } from '../../sections';
+import News from '../../sections/News/index';
 
 const Landing = () => {
   return (

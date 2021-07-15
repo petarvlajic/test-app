@@ -43,3 +43,11 @@
 .customer {
   @include bg('customer');
 }
+
+@media (max-width: 1000px) {
+  .card {
+    width: 100%;
+    margin: 10px 20px;
+    height: 250px;
+  }
+}

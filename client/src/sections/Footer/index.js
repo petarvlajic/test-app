@@ -20,6 +20,7 @@ const Footer = () => {
           <li>Home</li>
         </ul>
       </div>
+
       <div class="footer-text">
         <h2 className="footer-heading">Where we are</h2>
         <p>

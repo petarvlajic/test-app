@@ -6,4 +6,4 @@ import Form from './Form';
 import Hero from './Hero';
 import News from './News';
 
-export { Focus, Footer, Form, Hero, News, Pimcore, SingeNews };
+export { Focus, Footer, Form, Hero, Pimcore };

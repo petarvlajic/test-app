@@ -1,8 +1,9 @@
 import { Background, Navbar } from '../../components';
 import { Fragment } from 'react';
 import React from 'react';
+import SingeNews from '../../sections/SingeNews/index';
 
-const SingleNews = () => {
+const SingleNewsPage = () => {
   return (
     <Fragment>
       <Background bg="header-bg">
@@ -11,10 +12,10 @@ const SingleNews = () => {
         </div>
       </Background>
       <div className="container">
-        <SingleNews />
+        <SingeNews />
       </div>
     </Fragment>
   );
 };
 
-export default SingleNews;
+export default SingleNewsPage;

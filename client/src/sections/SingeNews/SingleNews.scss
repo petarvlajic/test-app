@@ -48,8 +48,16 @@ h2 {
     padding: 10px 20px;
     border-radius: 8px;
     margin-left: 20px;
+    border: 0px;
     background-color: #88ac2c;
     color: white;
     cursor: pointer;
+    min-width: 90px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .news-text {
+    padding: 0px;
   }
 }

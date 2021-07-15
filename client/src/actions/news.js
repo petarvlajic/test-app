@@ -22,6 +22,7 @@ export const getNews = () => async (dispatch) => {
 
 export const getSingleNews = (id) => async (dispatch) => {
   try {
+    console.log('ee');
     const res = await axios.get(`/news/getsnews/${id}`);
 
     dispatch({

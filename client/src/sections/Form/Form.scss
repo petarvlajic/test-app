@@ -18,11 +18,12 @@
     width: 50%;
     margin-right: 20px;
     input {
-      padding: 15px 5px;
+      padding: 15px;
       border-radius: 7px;
       border: 0px;
       width: 65%;
       outline: 0;
+      min-width: 250px;
     }
     button {
       padding: 15px 5px;
@@ -32,6 +33,36 @@
       background: #88ac2c;
       margin-left: 20px;
       width: 20%;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .form {
+    flex-direction: column;
+    .form-text {
+      text-align: left;
+    }
+    .form-input {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .form {
+    .form-text {
+      p {
+        min-width: 250px;
+      }
+    }
+    .form-input {
+      button {
+        width: 65%;
+        margin-top: 30px;
+        margin: 0px;
+        min-width: 250px;
+      }
     }
   }
 }

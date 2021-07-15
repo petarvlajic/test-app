@@ -10,6 +10,7 @@ import './App.css';
 import { getNews } from './actions/news';
 import { Provider } from 'react-redux';
 import store from './store';
+import SingleNewsPage from './pages/SingleNews';
 
 const App = () => {
   useEffect(() => {
@@ -21,7 +22,7 @@ const App = () => {
       <Router>
         <div className="App">
           <Route exact path="/" component={Landing} />
-          <Route exact path="/news/:id" component={SingleNews} />
+          <Route exact path="/news/:id" component={SingleNewsPage} />
 
           <Background bg="form-bg">
             <div className="container">

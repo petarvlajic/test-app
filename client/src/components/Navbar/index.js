@@ -18,6 +18,7 @@ const Navbar = () => {
           <li>Blog</li>
           <li>Contact</li>
         </ul>
+        <i class="fas fa-bars fa-2x"></i>
       </nav>
     </header>
   );
