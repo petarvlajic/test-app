@@ -14,7 +14,9 @@ const NewsCard = (props) => {
       </Link>
       <div className="news-card-info">
         <span>{Moment(date).format('MMMM Do YYYY')}</span>
-        <p>{title}</p>
+        <Link to={`news/${id}`}>
+          <p>{title}</p>
+        </Link>
         <span>Lorem Ipsum is simple</span>
       </div>
     </div>
