@@ -22,3 +22,11 @@
   margin-top: 30px;
   text-align: left !important;
 }
+
+@media (max-width: 450px) {
+  .heading {
+    h2 {
+      font-size: 32px;
+    }
+  }
+}

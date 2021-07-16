@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
       <div class="footer-resource">
         <h2 className="footer-heading">Resource</h2>
-        <ul>
+        <ul className="footer-resource-info">
           <li>About Us</li>
           <li>Contact</li>
           <li>Home</li>

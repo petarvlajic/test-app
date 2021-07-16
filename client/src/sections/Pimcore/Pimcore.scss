@@ -47,3 +47,14 @@
     }
   }
 }
+
+@media (max-width: 450px) {
+  .pimcore {
+    .pimcore-picture {
+      margin-left: 20px;
+    }
+    .pimcore-info {
+      padding: 0px 20px;
+    }
+  }
+}
