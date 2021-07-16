@@ -2,7 +2,7 @@
 
 .hero-text {
   padding: 270px 0px;
-  width: 52%;
+
   color: white;
 
   h1 {
@@ -58,22 +58,17 @@
   }
 }
 
-@media (max-width: 1200px) {
-  .hero-text {
-    margin-left: 250px;
-  }
-}
-
 @media (max-width: 1000px) {
   .hero-text {
-    margin-left: 150px;
     text-align: center;
+    .hero-buttons {
+      justify-content: center;
+    }
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .hero-text {
-    margin-left: 80px;
     h1 {
       font-size: 32px;
     }

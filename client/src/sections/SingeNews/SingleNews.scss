@@ -64,6 +64,9 @@ h2 {
 }
 
 @media (max-width: 450px) {
+  .news-text {
+    text-align: justify;
+  }
   .comments {
     padding: 20px;
     input {

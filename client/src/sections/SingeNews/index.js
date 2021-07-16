@@ -11,6 +11,7 @@ const SingleNews = ({ news }) => {
   const { id } = useParams();
   useEffect(() => {
     store.dispatch(getSingleNews(id));
+    window.scroll(0, 0);
   }, []);
 
   const renderSingleNews = () => {
