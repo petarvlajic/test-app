@@ -12,7 +12,7 @@ const SingleNews = ({ news }) => {
   useEffect(() => {
     store.dispatch(getSingleNews(id));
     window.scroll(0, 0);
-  }, []);
+  }, [id]);
 
   const renderSingleNews = () => {
     const { title, description, categories, image } = news;
