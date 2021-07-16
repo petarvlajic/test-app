@@ -1,5 +1,5 @@
-import React from 'react';
 import './Background.scss';
+import React from 'react';
 
 const Background = (props) => {
   const { children, bg } = props;

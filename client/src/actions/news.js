@@ -1,6 +1,5 @@
-import axios from 'axios';
-
 import { GET_NEWS, GET_SINGLENEWS, NEWS_ERROR } from './types';
+import axios from 'axios';
 
 // Get All News
 

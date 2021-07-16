@@ -1,9 +1,7 @@
+import { Link } from 'react-router-dom';
+import Moment from 'moment';
 import React from 'react';
 import './NewsCard.scss';
-import Moment from 'moment';
-import { Link } from 'react-router-dom';
-import store from '../../store';
-import { getSingleNews } from '../../actions/news';
 
 const NewsCard = (props) => {
   const { img, id, title, date } = props;

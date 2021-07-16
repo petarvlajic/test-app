@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import './Navbar.scss';
 import logo from '../../img/asioso-logo.jpeg';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './Navbar.scss';
 
 const Navbar = () => {
   const [content, setContent] = useState('Home');
